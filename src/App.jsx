@@ -1,11 +1,11 @@
-
+import { Routes, Route } from "react-router-dom"
+import Home from "./routes/Home"
 
 function App() {
-  const gKey ="AIzaSyDiUA0BNd74b5vc50lmpLIqoerJaV9R67k"
   return (
-    <>
-        
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   )
 }
 
